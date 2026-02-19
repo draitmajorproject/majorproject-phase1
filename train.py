@@ -39,4 +39,3 @@ for epoch in range(config.EPOCHS):
         optG.step()
 
     print(f"Epoch {epoch} | G {lossG.item():.3f} | D {lossD.item():.3f}")
-jhkjkjbkj
