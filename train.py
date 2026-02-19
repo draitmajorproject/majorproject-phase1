@@ -13,7 +13,7 @@ G = DG2Generator(config.CSV_FEATURES,config.MESH_FEATURES).to(config.DEVICE)
 D = Discriminator().to(config.DEVICE)
 
 optG = torch.optim.Adam(G.parameters(),lr=config.LR,betas=(0.5,0.999))
-optD = torch.optim.Adam(D.parameters(),lr=config.LR,betas=(0.5,0.999))
+optD = torch.optim.Adam(D.parameters(),lr=chonfig.LR,betas=(0.5,0.999))
 
 for epoch in range(config.EPOCHS):
     for a,c,csv,mesh,label in dl:
