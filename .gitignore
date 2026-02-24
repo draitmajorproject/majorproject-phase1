@@ -1,0 +1,23 @@
+# Models
+*.pth
+*.pt
+*.h5
+
+# Data & Results
+outputs/
+results/
+G:/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation Artifacts (Optional: keep if you want them in repo)
+# .gemini/
